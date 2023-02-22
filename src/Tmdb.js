@@ -26,7 +26,7 @@ export default {
       },
       {
         slug: "fantasy",
-        title: "Fantasia",
+        title: "Fantasy",
         items: await basicFetch(
           `/discover/movie?with_genres=14&language=pt-BR&api_key=${API_KEY}`
         ),
